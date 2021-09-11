@@ -2,8 +2,8 @@
 	border-bottom: 1px solid black;
 }
 .bg-line{
-	background: linear-gradient(#000, #000) no-repeat center/1px 100%;
-	background-position: left 10% top;
+	background: linear-gradient(#000, #000) no-repeat center/0.05em 100%;
+	background-position: left 7em top;
 }
 .vid-style{
 	width: 100%;
@@ -11,10 +11,10 @@
 	margin-right: 0px;
 }
 .log-style{
-	padding-left: 20px;
+	padding-left: 0.5em;
 }
 .name-style{
-	margin-left: 20%;
+	margin-left: 15em;
 }
 .r2{
 	margin-top: 20px;
@@ -22,11 +22,11 @@
 }
 .cw{
 	padding-top: 20px;
+	font-size: 1em;
 }
 .wnum{
 	padding-left: 5px;
 	font-family: 'Roboto';
-	font-size: 16px;
 }
 .footer{
 	border-top: 1px solid black;
