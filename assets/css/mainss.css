@@ -17,7 +17,7 @@
 	margin-left: 12em;
 }
 .whatsapp-style{
-	margin-left: 11em;
+	margin-left: 8em;
 }
 .r2{
 	margin-top: 20px;
@@ -36,5 +36,45 @@
 	padding-top: 10px;
 }
 .call-style{
-	margin-left: 11em;
+	margin-left: 8em;
+}
+@media only screen and (max-width: 480px) {
+	.call-style{
+		margin-left: 11em;
+	}
+	.whatsapp-style{
+		margin-left: 11em;
+	}
+}
+
+.smallDiv{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.slides{
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.carousel-inner{
+	align-self: center;
+}
+.line-side{
+	text-align: center;
+}
+.line-side2{
+	text-align: center;
+}
+.st-text{
+	margin-top: 5em;
+	align-items: center;
+}
+.c-p-bg{
+	font-size: 25px;
+	background: rgba(0, 0, 0, 0.5);
 }
